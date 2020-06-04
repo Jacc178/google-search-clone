@@ -1,3 +1,50 @@
-{
-    
+.header-logo {
+    width: 8%;
+    height:30px;
+    padding: 10px 30px 0px 16px;
+
 }
+
+.searchbar {
+    height: 30px;
+    width: 60%;
+    border-radius: 25px;
+    padding: 20px;
+    font-size: 22px;
+    border: solid 1px;
+    opacity: 0.3;
+    float: right;
+    position: fixed;
+    top: 16px;
+    right: 270px;
+}
+
+.nav {
+    position: fixed;
+    top:16px;
+    width: 100%;
+}
+
+.navbar-left {
+    float: left;
+    padding-top: 20px;
+    padding-left: 180px;
+
+
+}
+
+.navbar-right {
+   padding-top: 20px; 
+   float: right;
+   padding-right: 280px;
+
+}
+
+.nav-a {
+    text-decoration: none;
+    color: #5f6368;
+    margin-right: 25px;
+
+}
+ 
+
