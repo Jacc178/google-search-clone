@@ -184,7 +184,7 @@ main {
     .searchbar {
         width: 40%;
         position: fixed;
-        top: 16px;
+        top: 0;
         right: 900px;
     }
 
@@ -192,8 +192,8 @@ main {
         padding-left: 180px;
     }
 
-    .navbar-right {
-        padding-right: 900px;
+    .nav-a-break {
+        padding-right: 200px !important;
     }
 
     main {
@@ -212,6 +212,18 @@ main {
     .link-desc {
         width:55%
     }
+
+    .end {
+        position: absolute;
+        left: 188px;
+        bottom: -480px;
+    }
+
+    #rel-links-right {
+        position: absolute;
+        left: 460px;
+        bottom: -530px;
+    } 
 
 }
 
